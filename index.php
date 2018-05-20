@@ -45,7 +45,7 @@
 <div id="container">
 
 
-		<h1 style="font-size: 35px; text-align:center;color: #white ;text">Cross Site Request Forgery Protection  </br> Synchronizer Token</h1>
+		<h1 style="font-size: 35px; text-align:center;color: #white ;text">Cross Site Request Forgery Protection  </br> Asynchronizer Token</h1>
 			
 				
 
