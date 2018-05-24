@@ -11,7 +11,7 @@
     $token = hash_hmac('sha256',"token for user login",$_SESSION['key']);  
     $_SESSION['CSRF_TOKEN'] = $token;
 
-    setcookie("cToken",$token,time()+3600,"/","localhost",false,true); //cookie-token terminates after 1 hour
+    setcookie("csToken",$token,time()+3600,"/","localhost",false,true); //cookie-token terminates after 1 hour
 
 
 	?>
